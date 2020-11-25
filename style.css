@@ -279,3 +279,27 @@ body
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
+footer{
+    font-family: monospace, Arial, sans-serif;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer a:hover{
+    color: red;
+}
+footer pre{
+    font-size: 16px;
+}
+.divFloat{
+    width: 33%;
+    float: left;
+}
+footer h3{
+    color: red;
+}
