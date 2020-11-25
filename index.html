@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Store</title>
+</head>
+
+<body>
+
+    <div class="navbaritem"></div>
+    <div class="navbar" id="navbar">
+        <div class="navbarname">
+            <h2><span>O</span>nline<span> Store</span></h2>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/iphone1.jpg" height="590" width="100%" alt="">
+    </div>
+    <div class="mySlides fade">
+        <img src="images/android1.jpg" height="590" width="100%" alt="">
+    </div>
+    <div class="mySlides fade">
+        <img src="images/iphonex1.jpg " height="590" width="100%" alt="">
+    </div>
+    <div class="textinphoto">
+        <h1>Let's stay in touch <br />on all the latest<br /> phones and promotions.</h1>
+    </div>
+    <button class="subscribe" onclick="document.getElementById('signup').style.display='block'">Sign Up</button>
+    <div class="offers">
+        <div class="blackfriday">
+            <img src="images/blackfriday.jpg" height="600" alt="">
+            <button>View Offers</button>
+        </div>
+        <div class="phoneyouwant">
+            <img src="images/phoneyouwant.jpg" height="600" alt="">
+            <button>Reserve Now</button>
+        </div>
+        <div class="letschat">
+            <img src="images/letschat.jpg" height="600" alt="">
+            <button>Talk to a mobilist</button>
+        </div>
+    </div>
+
+    <h2 class="obp">Our Best Products</h2>
+    <div class="selling">
+
+        <div>
+            <img src="images/shitja1.jpg" height="300" width="300" alt="">
+            <h4>SAMSUNG TABLET</h4>
+            <H3>300$</H3>
+            <button>Buy Now</BUtton>
+        </div>
+
+        <div>
+            <img src="images/shitja2.jpg" height="300" width="300" alt="">
+            <h4>ANDROID TABLET</h4>
+            <H3>200$</H3>
+            <button>Buy Now</BUtton>
+        </div>
+
+        <div>
+            <img src="images/shitja3.jpg" height="300" width="300" alt="">
+            <h4>SAMSUNG A7</h4>
+            <H3>200$</H3>
+            <button>Buy Now</BUtton>
+        </div>
+
+        <div>
+            <img src="images/shitja4.jpg" height="300" width="300" alt="">
+            <h4>SAMSUNG TABLET</h4>
+            <H3>350$</H3>
+            <button>Buy Now</BUtton>
+        </div>
+
+        <div>
+            <img src="images/shitja5.jpg" height="300" width="300" alt="">
+            <h4>XIAOMI PHONE</h4>
+            <H3>200$</H3>
+            <button>Buy Now</BUtton>
+        </div>
+
+        <div>
+            <img src="images/shitja2.jpg" height="300" width="300" alt="">
+            <h4>TABLET</h4>
+            <H3>200$</H3>
+            <button>Buy Now</BUtton>
+        </div>
+
+        <div>
+            <img src="images/shitja1.jpg" height="300" width="300" alt="">
+            <h4>SAMSUNG TABLET BRAND NEW</h4>
+            <H3>200$</H3>
+            <button>Buy Now</BUtton>
+        </div>
+
+    </div>
+    
+    <div class="signup" id="signup">
+        <div class="signupwindow" >
+            <input type="email" name="email" placeholder="Email.." id="">
+            <span onclick="document.getElementById('signup').style.display='none'" class="x">x</span>
+            <input type="password" name="password" placeholder="Password.." id="">
+            <button type="submit" onclick="document.getElementById('signup').style.display='none'" class="btn btn-primary">Submit</button>
+            <h2>Sign Up</h2>
+        </div>
+    </div>
+    <script src="slides.js"></script>
+</body>
+
+</html>
