@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="service.css">
+    <title>Online Store</title>
+</head>
+
+<body>
+
+    <div class="navbaritem"></div>
+    <div class="navbar" id="navbar">
+        <div class="navbarname">
+            <h2><span>O</span>nline<span> Store</span></h2>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </div>
+ 
+<div>
+    <img src="images/mobileservice.jpg" width="100%" height="100%" alt="Services">
+    <div class="textinphoto">
+    <h1>SERVICES</h1>
+    <br>
+    <p>Our solutions are connected services through expert teams.</p>
+    </div>
+</div>
+  
+<h1 class="obp">Our Services</h1>
+<div class="divTabs">
+    <h3>Smartphone</h3>
+    <ul>
+        <li>mflwkdfmkdw</li>
+        <li>ndfknmkdlmf</li>
+        <li>nlnnmlmvckbv</li>
+        <li>mvkdlvmkdflmglm</li>
+    </ul>
+    <button class="tablinks" onclick="openCity(event, 'tab1')" id="defaultOpen">See our smartphone services</button>
+  </div>
+  <div class="divTabs">
+    <h3>Aksesor</h3>
+    <ul>
+        <li>mflwkdfmkdw</li>
+        <li>ndfknmkdlmf</li>
+        <li>nlnnmlmvckbv</li>
+        <li>mvkdlvmkdflmglm</li>
+    </ul>
+    <button class="tablinks" onclick="openCity(event, 'tab2')">See our phone services</button>
+  </div>
+  <div class="divTabs">
+    <h3>Gaming</h3>
+    <ul>
+        <li>mflwkdfmkdw</li>
+        <li>ndfknmkdlmf</li>
+        <li>nlnnmlmvckbv</li>
+        <li>mvkdlvmkdflmglm</li>
+    </ul>
+    <button class="tablinks" onclick="openCity(event, 'tab3')">See our gaming services</button>
+  </div>
+  <div id="tab1" class="tabcontent">
+    <h3>Smartphone</h3>
+    <img src="images/mobileservice.jpg" width="33%" alt="">
+    <img src="images/mobileservice.jpg" width="33%" alt="">
+    <img src="images/mobileservice.jpg" width="33%" alt="">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, tenetur quod! Laudantium unde inventore provident totam 
+        non ratione placeat incidunt iusto recusandae, et officia. Fugiat mollitia harum iusto doloremque illum!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed corrupti voluptate, iusto numquam ipsa aspernatur fugiat praesentium hic natus
+         corporis impedit vitae qui sequi tempore! Fugit delectus alias adipisci vitae!
+    </p>
+  </div>
+  
+  <div id="tab2" class="tabcontent">
+    <h3>Phone</h3>
+    <img src="images/mobileservice.jpg" width="33%" alt="">
+    <img src="images/mobileservice.jpg" width="33%" alt="">
+    <img src="images/mobileservice.jpg" width="33%" alt="">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, tenetur quod! Laudantium unde inventore provident totam 
+        non ratione placeat incidunt iusto recusandae, et officia. Fugiat mollitia harum iusto doloremque illum!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed corrupti voluptate, iusto numquam ipsa aspernatur fugiat praesentium hic natus
+         corporis impedit vitae qui sequi tempore! Fugit delectus alias adipisci vitae!
+    </p>
+  </div>
+  
+  <div id="tab3" class="tabcontent">
+    <h3>Gaming</h3>
+    <img src="images/mobileservice.jpg" width="33%" alt="">
+    <img src="images/mobileservice.jpg" width="33%" alt="">
+    <img src="images/mobileservice.jpg" width="33%" alt="">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, tenetur quod! Laudantium unde inventore provident totam 
+        non ratione placeat incidunt iusto recusandae, et officia. Fugiat mollitia harum iusto doloremque illum!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed corrupti voluptate, iusto numquam ipsa aspernatur fugiat praesentium hic natus
+         corporis impedit vitae qui sequi tempore! Fugit delectus alias adipisci vitae!
+    </p>
+  </div>
+
+  
+<footer id="footer">
+<div>
+  <div class="divFloat">
+      <h3>Kontakti</h3>
+    <pre>
+ info@interneti.com
+  +383 49 435862
+    </pre>
+  </div>
+  <div class="divFloat">
+      <h3>Social Media</h3> 
+      <a href="#">Facebook</a><br>
+      <a href="#">Linkedin</a><br>
+      <a href="#">Twitter</a>
+  </div>
+  <div class="divFloat">
+        <h3>Adresa</h3> 
+      <pre>
+    US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State
+    </pre>
+</div>  
+</div>
+
+<hr style="clear: left;">
+&copy;INT20_21_Gr6 2020
+</footer>
+<script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
+</html>
