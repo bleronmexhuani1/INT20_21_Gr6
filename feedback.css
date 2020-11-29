@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+}
+
+body {
+    background: linear-gradient(90deg, #560675, #240d88);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contanier {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    width: 600px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, #5baaea, #ff00ea);
+    box-shadow: 0 0 100px 50px rgba(20, 22, 22, 0.667);
+    border: 2px solid #bea;
+    border-radius: 10px;
+    transition: 10s;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'oswald', sans-serif;
+    user-select: none;
+    text-transform: uppercase;
+}
+
+.form {
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.user input {
+    width: 400px;
+    height: 30px;
+    margin-top: 5%;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    font-size: 20px;
+    outline: none;
+}
+
+.username input {
+    width: 400px;
+    height: 30px;
+    margin-top: 5%;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    font-size: 20px;
+    outline: none;
+}
+
+.user input ::placeholder {
+    color: #000000;
+}
+
+.username input ::placeholder {
+    color: #000000;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(136, 9, 148, 0.667), #3028a0);
+    box-shadow: 0 0 20px 4px #000000;
+    resize: none;
+    margin-top: 3%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+textarea ::placeholder {
+    color: #000000;
+}
+
+.sub {
+    margin-top: 15%;
+    position: relative;
+}
+
+.sub input {
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(62, 63, 63, 0.667), #ffc0);
+    border: 3px solid #ffffff;
+    color: #f2f2f2;
+    font-family: 'Trade Winds', cursive;
+}
+
+.sub input[type='submit']:active {
+    border-color: #755bea;
+    outline: none;
+}
+
+.rating {
+    position: absolute;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label img {
+    width: 50px;
+}
+
+.rating label {
+    position: relative;
+    width: 0px;
+    height: 120px;
+    cursor: pointer;
+    transition: 0.5s;
+    filter: grayscale(1);
+    text-align: center;
+    opacity: 0;
+}
+
+.rating :hover label {
+    width: 100px;
+    opacity: 0.2;
+}
+
+.rating input :hover+label,
+.rating input :checked+label {
+    opacity: 1;
+    width: 100px;
+    filter: grayscale(0);
+}
+
+.rating label h4 {
+    font-size: 14px;
+    font-weight: 500px;
+    color: #fff;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translate(-50px) scale(0);
+    padding-top: 0px;
+    transition: 0.5s;
+}
+
+.rating input :hover+label h4,
+.rating input :checked+label h4 {
+    opacity: 1;
+    transform: translate(0) scale(1);
+}
