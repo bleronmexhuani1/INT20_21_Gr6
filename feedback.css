@@ -1,28 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-* {
-    margin: 0;
-    padding: 0%;
-    overflow: hidden;
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(90deg, #560675, #240d88);
+    background: linear-gradient(90deg, rgba(250, 209, 209, 0.667), rgb(42, 42, 73));
     margin: 0%;
     padding: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Exo', sans-serif; 
     min-height: 100vh;
+}
+.navbar 
+{   
+    background-color:rgba(0, 1, 19, 0.9);
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 3px;
+    
+}
+.navbaritem
+{
+    
+    width: 100%;
+    border:2px solid red;
+}
+.navbarname 
+{
+    margin-right: 42%;
+   
+}
+.navbarname h2
+{
+    color: whitesmoke;
+    font-size: 17px;
+ 
+}
+.navbarname h2 span
+{
+    color: red;
+}
+.navbar ul li  {
+    display: inline-flex;
+}
+.navbar ul 
+{
+    margin: 0;
+}
+.navbar ul li a {
+    text-decoration: none;    
+    font-size: 16px;
+    color:whitesmoke;
+    padding:15px 30px 15px 30px;
+}
+.navbar a:hover
+{
+    transition: 0.8s;
+    color: rgba(248, 9, 9, 0.9);
 }
 
 .contanier {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     min-height: 600px;
-    width: 600px;
+    width: 400px;
     margin-top: 10px;
+    margin-bottom: 10px;
     background: linear-gradient(90deg, #5baaea, #ff00ea);
     box-shadow: 0 0 100px 50px rgba(20, 22, 22, 0.667);
     border: 2px solid #bea;
@@ -46,7 +92,7 @@ h2 {
 .user input {
     width: 400px;
     height: 30px;
-    margin-top: 5%;
+    margin-top: 1%;
     border: none;
     background: transparent;
     border-bottom: 3px solid rgb(0, 0, 0);
@@ -57,7 +103,7 @@ h2 {
 .username input {
     width: 400px;
     height: 30px;
-    margin-top: 5%;
+    margin-top: 3%;
     border: none;
     background: transparent;
     border-bottom: 3px solid rgb(0, 0, 0);
@@ -76,7 +122,7 @@ h2 {
 textarea {
     width: 400px;
     height: 200px;
-    background: linear-gradient(180deg, rgba(136, 9, 148, 0.667), #3028a0);
+    background: linear-gradient(90deg, rgba(250, 209, 209, 0.667), rgb(74, 74, 107));
     box-shadow: 0 0 20px 4px #000000;
     resize: none;
     margin-top: 3%;
@@ -90,7 +136,8 @@ textarea ::placeholder {
 }
 
 .sub {
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-bottom: 3%;
     position: relative;
 }
 
@@ -144,7 +191,7 @@ textarea ::placeholder {
 .rating input :hover+label,
 .rating input :checked+label {
     opacity: 1;
-    width: 100px;
+    width: 500px;
     filter: grayscale(0);
 }
 
@@ -163,4 +210,29 @@ textarea ::placeholder {
 .rating input :checked+label h4 {
     opacity: 1;
     transform: translate(0) scale(1);
+}
+
+footer{
+    font-family: monospace, Arial, sans-serif;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer a:hover{
+    color: red;
+}
+footer pre{
+    font-size: 16px;
+}
+.divFloat{
+    width: 33%;
+    float: left;
+}
+footer h3{
+    color: red;
 }

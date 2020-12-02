@@ -4,13 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback Form</title>
     <link rel="stylesheet" href="feedback.css">
+    <link rel="icon" href="images/icon.png" type="images/icon">
+    <title>Online Store</title>
 
 </head>
 
 <body>
-    <div class="container">
+    <div class="navbaritem"></div>
+    <div class="navbar" id="navbar">
+        <div class="navbarname">
+            <h2><span>O</span>nline<span> Store</span></h2>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </div>
+ 
+    <div class="container" style="text-align: center;">
         <form action="">
             <div class="form">
                 <h2>Send Feedback</h2>
@@ -22,7 +37,7 @@
                     <input type="text" placeholder="Enter Username">
                 </div>
                 <textarea placeholder="Enter your message"></textarea>
-                <div class="rating">
+                <!-- <div class="rating">
                     <input type="radio" name="emoji" id="emoji1" checked>
                     <label for="emoji1">
                         <img src="images/satisfactory.jpg" title="satisfactor">
@@ -49,13 +64,42 @@
                         <h4>Excellent</h4>
                     </label>
 
-                </div>
+                </div> -->
             </div>
             <div class="sub">
                 <input type="submit" value=" submit">
             </div>
         </form>
     </div>
+
+    <footer id="footer">
+        <div>
+          <div class="divFloat">
+              <h3>Kontakti</h3>
+            <pre>
+         info@interneti.com
+          +383 49 435862
+            </pre>
+          </div>
+          <div class="divFloat">
+              <h3>Social Media</h3> 
+              <a href="#">Facebook</a><br>
+              <a href="#">Linkedin</a><br>
+              <a href="#">Twitter</a>
+          </div>
+          <div class="divFloat">
+                <h3>Adresa</h3> 
+              <pre>
+            US Office: 651 N Broad St.
+            Middletown, Delaware, 1970
+             United State
+            </pre>
+        </div>  
+        </div>
+        
+        <hr style="clear: left;">
+        &copy;INT20_21_Gr6 2020
+        </footer>
 </body>
 
 </html>
