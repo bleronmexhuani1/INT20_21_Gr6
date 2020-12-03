@@ -156,28 +156,31 @@ textarea ::placeholder {
 
 .rating {
     position: absolute;
-    margin-left: 50px;
+    margin-top: 2%;
+    margin-left: 33%;
     display: flex;
     flex-direction: row-reverse;
+    
 }
-
 .rating input {
     display: none;
 }
 
 .rating label img {
     width: 50px;
+    
 }
 
 .rating label {
     position: relative;
-    width: 0px;
+    width: 92px;
     height: 120px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 360000s;
     filter: grayscale(1);
     text-align: center;
     opacity: 0;
+    
 }
 
 .rating :hover label {
@@ -193,14 +196,15 @@ textarea ::placeholder {
 }
 
 .rating label h4 {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 500px;
     color: #fff;
     white-space: nowrap;
     opacity: 0;
     transform: translate(-50px) scale(0);
     padding-top: 0px;
-    transition: 0.5s;
+    transition: 360000s;
+    
 }
 
 .rating input :hover+label h4,
