@@ -17,13 +17,14 @@ body
     width: 100%;
     justify-content: flex-end;
     padding: 3px;
-    
+    position: fixed;
 }
 .navbaritem
 {
     
     width: 100%;
     border:2px solid red;
+    
 }
 .navbarname 
 {
