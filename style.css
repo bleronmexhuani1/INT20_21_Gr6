@@ -280,6 +280,38 @@ body
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
+.choosebybrand
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background:linear-gradient(to bottom, #ffffff,whitesmoke);
+    margin-bottom: 0px;
+    text-align: center;
+    padding:70px;
+}
+.choosebybrand img
+{
+    box-shadow: 5px 30px 50px 2px rgb(109, 108, 108);
+}
+.choosebybrandtext h1
+{
+    margin-top: 100px;
+    margin-left: 35%;
+    color: rgb(255, 0, 68);
+    font-size: 50px;
+    font-style: italic;
+
+}
+.apple:hover,.motorola:hover,.lg:hover,.samsung:hover,.apple:hover,.huawei:hover
+{
+    cursor: pointer;
+    color: rgb(255, 0, 68);
+}
+
 footer{
     font-family: monospace, Arial, sans-serif;
     background-color: black;
