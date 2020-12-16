@@ -45,7 +45,7 @@
             <span>CONTACT</span>
             <span>US</span>
           </div>
-          <div class="app-contact">CONTACT INFO : ....</div>
+          <div class="app-contact" id="numritel">CONTACT INFO : 044</div>
         </div>
         <div class="screen-body-item">
           <div class="app-form">
@@ -56,7 +56,7 @@
               <input class="app-form-control" placeholder="EMAIL">
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="CONTACT NO">
+              <input class="app-form-control"  placeholder="CONTACT NO">
             </div>
             <div class="app-form-group message">
               <input class="app-form-control" placeholder="MESSAGE">
@@ -70,6 +70,30 @@
       </div>
     </div>
 </div>
+<input type="text" id="nrRi" value="" name="">
+<button onclick="myFunction()">Nderro Numrin</button>
+<form class="format" action="" method="get" >
+<div class="vlerso">
+  <input type="radio" name="vlersimi" value="1" onclick="alert('Faleminderit per vlersimin')"> <big>1 Yll(I vetem)</big> </value><br>
+  </div>
+  <div class="vlerso">
+  <input type="radio" name="vlersimi" value="2"  onclick="alert('Faleminderit per vlersimin')"> <big>2 Yje(Dobet)</big></value><br> </div>
+  <div class="vlerso">
+  <input type="radio" name="vlersimi" value="3"  onclick="alert('Faleminderit per vlersimin')"> <big>3 Yje(Mire)</big></value><br></div>
+  <div class="vlerso">
+  <input type="radio" name="vlersimi" value="4"  onclick="alert('Faleminderit per vlersimin')"> <big>4 Yje(Shume mire)</big></value><br></div>
+  <div class="vlerso">
+  <input type="radio" name="vlersimi" value="5"  onclick="alert('Faleminderit per vlersimin')"> <big>5 Yje(Shkelqyeshem)</big></value><br><div>
+</form>
+<script type="text/javascript">
+	function myFunction(){
+		var numri = document.getElementById("numritel").innerHTML;
+		var numriRi = document.getElementById("nrRi").value;
+		var txt = numri.replace(/044/i,numriRi);
+		document.getElementById("numritel").innerHTML = txt;
+	}
+	
+</script>
 
     </body>
 

@@ -5,8 +5,31 @@
 }
 
 body {
-  background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
-  font-size: 12px;
+   background: linear-gradient(90deg, rgba(250, 209, 209, 0.667), rgb(42, 42, 73));
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Exo', sans-serif; 
+    min-height: 100vh;
+
+/*  background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
+  font-size: 12px;*/
+}
+.format{
+   position:absolute;                  
+            bottom:0;                          
+            left:0;     
+}
+
+.vlerso{
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: 2em;
+border: 1px solid #DED2CA;
+margin-top: 0.5em;
+margin-right: 7em;
+font-size: 1em;
+color: #68D1FF;
+border-radius: 10px;
 }
 
 body, button, input {
