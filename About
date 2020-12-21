@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="res.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="about.css">
+
+</head>
+
+<body>
+
+
+	<header>
+		  <div class="navbaritem"></div>
+    <div class="navbar" id="navbar">
+        <div class="navbarname">
+            <h2><span>O</span>nline<span> Store</span></h2>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+	</header>
+<div id="content">
+	<div id="tab"> 
+		<div id="pho"></div>
+
+	</div>
+</div>	
+
+<div id="teksti">
+	<h1>About Us ! </h1><br/>
+	<br/>
+<div id="miss">
+	<h3>OUR MISSION</h3>
+	<p>Our Roadmap starts with our mission which is 
+       enduring . It declares our purpose as a  
+        company and serves as the standard against
+        which we weigh our actions and decisions .
+       
+	
+
+	</p>
+</div>
+<div id="vis">
+	<h3>OUR VISION</h3>
+	<p>Our vision serves as the framework for our roadmap
+       and guides every aspect of our business by describing what we need to accomplish in order to continue achieving sustainble , quality growth
+	</p></div> <br/>
+<div id="cult">
+	<h3>OUR WINING CULTURE</h3>
+	<p>Our wining culture defines the attitude and behaviours that will be required of us to make our vision a reality</p>
+</div>
+<div id="val">
+	<h3>LIVE OUR VALUES</h3>
+	<ul>
+		<li>Leadership the courage to shape a better future</li>
+		<li>Passion committed in heart and mind</li>
+		<li>Collaboration leverage collective genius</li>
+	</ul>
+</div>
+
+</div>
+
+	<footer id="footer">
+<div>
+  <div class="divFloat">
+      <h3>Kontakti</h3>
+    <pre>
+ info@interneti.com
+  +383 49 435862
+    </pre>
+  </div>
+  <div class="divFloat">
+      <h3>Social Media</h3> 
+      <a href="#">Facebook</a><br>
+      <a href="#">Linkedin</a><br>
+      <a href="#">Twitter</a>
+  </div>
+  <div class="divFloat">
+        <h3>Adresa</h3> 
+      <pre>
+    US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State
+    </pre>
+</div>  
+</div>
+
+<hr style="clear: left;">
+&copy;INT20_21_Gr6 2020
+</footer>
+
+</body>
+</html>
