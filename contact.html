@@ -45,7 +45,7 @@
             <span>CONTACT</span>
             <span>US</span>
           </div>
-          <div class="app-contact" id="numritel">CONTACT INFO : 044</div>
+          <div class="app-contact" id="numritel">CONTACT INFO :<span id="ContactNr"> 044 </span></div>
         </div>
         <div class="screen-body-item">
           <div class="app-form">
@@ -70,8 +70,14 @@
       </div>
     </div>
 </div>
-<input type="text" id="nrRi" value="" name="">
-<button onclick="myFunction()">Nderro Numrin</button>
+<div>
+<div class="form__group">
+  <input type="text" class="form__input" id="nrRi" placeholder="Numri i Ri"  />
+  <label for="name" class="form__label">Numri i Ri</label>
+</div>
+	<br/>
+	<button onclick="myFunction()">Nderro Numrin</button>
+</div>
 <form class="format" action="" method="get" >
 <div class="vlerso">
   <input type="radio" name="vlersimi" value="1" onclick="alert('Faleminderit per vlersimin')"> <big>1 Yll(I vetem)</big> </value><br>
@@ -87,10 +93,11 @@
 </form>
 <script type="text/javascript">
 	function myFunction(){
-		var numri = document.getElementById("numritel").innerHTML;
+		var numri = document.getElementById("ContactNr").innerHTML;
+
 		var numriRi = document.getElementById("nrRi").value;
-		var txt = numri.replace(/044/i,numriRi);
-		document.getElementById("numritel").innerHTML = txt;
+		var txt = numri.replace(numri,numriRi);
+		document.getElementById("ContactNr").innerHTML = txt;
 	}
 	
 </script>
