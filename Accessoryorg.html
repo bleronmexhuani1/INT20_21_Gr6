@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="accessory.css">
+    <link rel="icon" href="images/icon.png" type="images/icon">
+    <title>Online Store</title>
+</head>
+
+<body>
+
+    <div class="navbaritem"></div>
+    <div class="navbar" id="navbar">
+        <div class="navbarname">
+            <h2><span>O</span>nline<span> Store</span></h2>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+ 
+    <button class="tablink" onclick="openPage('Phone', this, 'rgb(255, 234, 234)')" id="defaultOpen">Phone</button>
+    <button class="tablink" onclick="openPage('Laptop', this, 'rgb(231, 232, 255)')">Laptop</button>
+    
+    <div id="Phone" class="tabcontent">
+    
+      <button class="tablink1" onclick="openPage('HUAWEI', this, 'red')" id="defaultOpen">HUAWEI</button>
+    <button class="tablink1" onclick="openPage('APPLE', this, 'green')" >APPLE</button>
+    <button class="tablink1" onclick="openPage('LG', this, 'orange')">LG</button>
+    <button class="tablink1" onclick="openPage('MOTOROLA', this, 'blue')">MOTOROLA</button>
+    <button class="tablink1" onclick="openPage('SAMSUNG', this, 'orange')">SAMSUNG</button>
+    </div>
+    
+    <div id="Laptop" class="tabcontent">
+        <button class="tablink1" onclick="openPage('HP', this, 'red')" >HP</button>
+        <button class="tablink1" onclick="openPage('APPLE', this, 'green')" >APPLE</button>
+        <button class="tablink1" onclick="openPage('LENOVO', this, 'orange')">LENOVO</button>
+        <button class="tablink1" onclick="openPage('ACER', this, 'blue')">ACER</button>
+        <button class="tablink1" onclick="openPage('DELL', this, 'orange')">DELL</button>
+    </div>
+    
+    <div id="HUAWEI" class="tabcontent">
+        <h3>Home</h3>
+        <p>Home is where the heart is..</p>
+      </div>
+      
+      <div id="APPLE" class="tabcontent">
+        <h3>News</h3>
+        <p>Some news this fine day!</p> 
+      </div>
+      
+      <div id="LG" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+      </div>
+      
+      <div id="MOTOROLA" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+      </div>
+
+      <div id="SAMSUNG" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+      </div>
+
+<footer id="footer">
+<div>
+  <div class="divFloat">
+      <h3>Kontakti</h3>
+    <pre>
+ info@interneti.com
+  +383 49 435862
+    </pre>
+  </div>
+  <div class="divFloat">
+      <h3>Social Media</h3> 
+      <a href="https://www.facebook.com" target="_blank">Facebook</a><br>
+      <a href="https://www.linkedin.com" target="_blank">Linkedin</a><br>
+      <a href="https://www.twitter.com" target="_blank">Twitter</a>
+  </div>
+  <div class="divFloat">
+        <h3>Adresa</h3> 
+      <pre>
+    US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State
+    </pre>
+</div>  
+
+</div>  
+</div>
+
+<hr style="clear: left;">
+&copy;INT20_21_Gr6 2020
+</footer>
+
+<script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+
+<script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    
+    document.getElementById("defaultOpen").click();
+    </script>
+
+<script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks1;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks1 = document.getElementsByClassName("tablink1");
+      for (i = 0; i < tablinks1.length; i++) {
+        tablinks1[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    
+    document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
+
+</html>

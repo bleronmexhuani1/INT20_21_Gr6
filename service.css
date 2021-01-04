@@ -115,6 +115,7 @@ body
       color: black;
       display: inline-block;
       margin: 1%;
+    margin-top: 12%; 
   }
   .divTabs h3{
       padding-left: 45%;
@@ -144,6 +145,21 @@ body
     font-size: 50px;
     
 }
+
+.textt h5{
+    opacity: 1.5;
+    position: absolute;
+    font-weight: normal;
+    font-family: "Arial";
+    color: black;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    letter-spacing: 2px;   
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .textinphoto p{
     opacity: 1.5;
     position: absolute;
@@ -154,6 +170,8 @@ body
     color: whitesmoke;
     
 }
+
+
 footer{
     font-family: monospace, Arial, sans-serif;
     background-color: black;
