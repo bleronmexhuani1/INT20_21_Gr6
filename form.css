@@ -1,10 +1,62 @@
-body {
-    background-color: #000;
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    box-sizing: border-box;
 }
-
-html,
-body {
-    height: 100%;
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;  
+}
+.navbar 
+{   
+    background-color:rgba(0, 1, 19, 0.9);
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 3px;
+     
+}
+.navbaritem
+{
+    
+    width: 100%;
+    border:2px solid red;
+}
+.navbarname 
+{
+    margin-right: 42%;
+   
+}
+.navbarname h2
+{
+    color: whitesmoke;
+    font-size: 17px;
+ 
+}
+.navbarname h2 span
+{
+    color: red;
+}
+.navbar ul li  {
+    display: inline-flex;
+}
+.navbar ul 
+{
+    margin: 0;
+}
+.navbar ul li a {
+    text-decoration: none;    
+    font-size: 16px;
+    color:whitesmoke;
+    padding:15px 30px 15px 30px;
+}
+.navbar a:hover
+{
+    transition: 0.8s;
+    color: rgba(248, 9, 9, 0.9);
 }
 
 .imagebg {
