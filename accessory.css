@@ -101,6 +101,23 @@ body
     font-size: 17px;
     width: 20%;
   }
+
+.onl{
+        opacity: 1.5;
+        position: absolute;
+        font-weight: normal;
+        font-family: "Arial";
+        color: black;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        letter-spacing: 2px;   
+        text-align: justify;
+        text-justify: inter-word;
+}
+
+
+
 footer{
     font-family: monospace, Arial, sans-serif;
     background-color: black;

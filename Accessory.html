@@ -8,6 +8,17 @@
     <link rel="icon" href="images/icon.png" type="images/icon">
     <title>Online Store</title>
     <style>
+      .zoom {
+        transition: transform .2s; /* Animation */
+        margin: 0 auto;
+      }
+      
+      .zoom:hover {
+        transform: scale(5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+      </style>
+      
+    <style>
       table {
         float: left;
         margin-left: 1%;
@@ -22,6 +33,11 @@
         padding: 5px;
         text-align: left;    
         border: 1px solid black;
+      }
+      .firstTRow{
+        color: white;
+        background-color: black;
+        border: 3px outset rgb(146, 142, 142);
       }
       </style>
 </head>
@@ -49,12 +65,12 @@
       <table style="width:19%">
         <caption><strong>HUAWEI</strong></caption>
         <tr>
-          <th>Model</th>
-          <th>Price</th>
-          <th>Color</th>
+          <th class="firstTRow">Model</th>
+          <th class="firstTRow">Price</th>
+          <th class="firstTRow">Color</th>
         </tr>
         <tr>
-          <td><img src="images/1.jpg" alt="Degjuese" width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/1.jpg" alt="Degjuese" width="50" height="50"></td>
           <td>$5</td>
           <td>Black
             <br>
@@ -62,7 +78,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/2.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/2.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Black
             <br>
@@ -70,7 +86,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/3.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/3.jpg" alt=" " width="50" height="50"></td>
           <td>$96</td>
           <td>Black <br>
               White <br>
@@ -80,12 +96,12 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/4.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/4.jpg" alt=" " width="50" height="50"></td>
           <td>$121</td>
           <td>Black </td>
         </tr>
         <tr>
-          <td><img src="images/5.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/5.jpg" alt=" " width="50" height="50"></td>
           <td>$25</td>
           <td>Black <br>
             White <br>
@@ -96,12 +112,12 @@
         </td>
         </tr>
         <tr>
-          <td><img src="images/6.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/6.jpg" alt=" " width="50" height="50"></td>
           <td>$21</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/7.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/7.jpg" alt=" " width="50" height="50"></td>
           <td>$10</td>
           <td>Black <br>
             White <br>
@@ -112,131 +128,131 @@
         </td>
         </tr>
         <tr>
-          <td><img src="images/8.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/8.jpg" alt=" " width="50" height="50"></td>
           <td>$9</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/9.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/9.jpg" alt=" " width="50" height="50"></td>
           <td>$15</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/10.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/10.jpg" alt=" " width="50" height="50"></td>
           <td>$4</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/11.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/11.jpg" alt=" " width="50" height="50"></td>
           <td>$13</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/12.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/12.jpg" alt=" " width="50" height="50"></td>
           <td>$156</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/13.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/13.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/14.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/14.jpg" alt=" " width="50" height="50"></td>
           <td>$100</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/15.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/15.jpg" alt=" " width="50" height="50"></td>
           <td>$150</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/16.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/16.jpg" alt=" " width="50" height="50"></td>
           <td>$56</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/17.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/17.jpg" alt=" " width="50" height="50"></td>
           <td>$30</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/18.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/18.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/19.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/19.jpg" alt=" " width="50" height="50"></td>
           <td>$250</td>
           <td>Pink</td>
         </tr>
         <tr>
-          <td><img src="images/20.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/20.jpg" alt=" " width="50" height="50"></td>
           <td>$10</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/21.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/21.jpg" alt=" " width="50" height="50"></td>
           <td>$15</td>
           <td> % </td>
         </tr>
         <tr>
-          <td><img src="images/22.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/22.jpg" alt=" " width="50" height="50"></td>
           <td>$89</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/23.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/23.jpg" alt=" " width="50" height="50"></td>
           <td>$45</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/24.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/24.jpg" alt=" " width="50" height="50"></td>
           <td>$70</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/25.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/25.jpg" alt=" " width="50" height="50"></td>
           <td>$40</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/26.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/26.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>%</td>
         </tr>
         <tr>
-          <td><img src="images/27.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/27.jpg" alt=" " width="50" height="50"></td>
           <td>$100</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/28.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/28.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/29.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/29.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Red</td>
         </tr>
         <tr>
-          <td><img src="images/30.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/30.jpg" alt=" " width="50" height="50"></td>
           <td>$86</td>
           <td>%</td>
         </tr>
         <tr>
-          <td><img src="images/31.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/31.jpg" alt=" " width="50" height="50"></td>
           <td>$279</td>
           <td>Black</td>
         </tr>
@@ -245,12 +261,12 @@
       <table style="width:19%">
         <caption><strong>APPLE</strong></caption>
         <tr>
-          <th>Model</th>
-          <th>Price</th>
-          <th>Color</th>
+          <th class="firstTRow">Model</th>
+          <th class="firstTRow">Price</th>
+          <th class="firstTRow">Color</th>
         </tr>
         <tr>
-          <td><img src="images/1.jpg" alt="Degjuese" width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/1.jpg" alt="Degjuese" width="50" height="50"></td>
           <td>$5</td>
           <td>Black
             <br>
@@ -258,7 +274,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/2.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/2.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Black
             <br>
@@ -266,7 +282,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/3.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/3.jpg" alt=" " width="50" height="50"></td>
           <td>$96</td>
           <td>Black <br>
               White <br>
@@ -276,12 +292,12 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/4.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/4.jpg" alt=" " width="50" height="50"></td>
           <td>$121</td>
           <td>Black </td>
         </tr>
         <tr>
-          <td><img src="images/5.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/5.jpg" alt=" " width="50" height="50"></td>
           <td>$25</td>
           <td>Black <br>
             White <br>
@@ -292,12 +308,12 @@
         </td>
         </tr>
         <tr>
-          <td><img src="images/6.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/6.jpg" alt=" " width="50" height="50"></td>
           <td>$21</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/7.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/7.jpg" alt=" " width="50" height="50"></td>
           <td>$10</td>
           <td>Black <br>
             White <br>
@@ -308,131 +324,131 @@
         </td>
         </tr>
         <tr>
-          <td><img src="images/8.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/8.jpg" alt=" " width="50" height="50"></td>
           <td>$9</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/9.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/9.jpg" alt=" " width="50" height="50"></td>
           <td>$15</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/10.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/10.jpg" alt=" " width="50" height="50"></td>
           <td>$4</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/11.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/11.jpg" alt=" " width="50" height="50"></td>
           <td>$13</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/12.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/12.jpg" alt=" " width="50" height="50"></td>
           <td>$156</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/13.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/13.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/14.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/14.jpg" alt=" " width="50" height="50"></td>
           <td>$100</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/15.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/15.jpg" alt=" " width="50" height="50"></td>
           <td>$150</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/16.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/16.jpg" alt=" " width="50" height="50"></td>
           <td>$56</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/17.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/17.jpg" alt=" " width="50" height="50"></td>
           <td>$30</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/18.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/18.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/19.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/19.jpg" alt=" " width="50" height="50"></td>
           <td>$250</td>
           <td>Pink</td>
         </tr>
         <tr>
-          <td><img src="images/20.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/20.jpg" alt=" " width="50" height="50"></td>
           <td>$10</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/21.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/21.jpg" alt=" " width="50" height="50"></td>
           <td>$15</td>
           <td> % </td>
         </tr>
         <tr>
-          <td><img src="images/22.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/22.jpg" alt=" " width="50" height="50"></td>
           <td>$89</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/23.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/23.jpg" alt=" " width="50" height="50"></td>
           <td>$45</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/24.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/24.jpg" alt=" " width="50" height="50"></td>
           <td>$70</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/25.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/25.jpg" alt=" " width="50" height="50"></td>
           <td>$40</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/26.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/26.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>%</td>
         </tr>
         <tr>
-          <td><img src="images/27.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/27.jpg" alt=" " width="50" height="50"></td>
           <td>$100</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/28.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/28.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/29.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/29.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Red</td>
         </tr>
         <tr>
-          <td><img src="images/30.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/30.jpg" alt=" " width="50" height="50"></td>
           <td>$86</td>
           <td>%</td>
         </tr>
         <tr>
-          <td><img src="images/31.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/31.jpg" alt=" " width="50" height="50"></td>
           <td>$279</td>
           <td>Black</td>
         </tr>
@@ -441,12 +457,12 @@
       <table style="width:19%">
         <caption><strong>LG</strong></caption>
         <tr>
-          <th>Model</th>
-          <th>Price</th>
-          <th>Color</th>
+          <th class="firstTRow">Model</th>
+          <th class="firstTRow">Price</th>
+          <th class="firstTRow">Color</th>
         </tr>
         <tr>
-          <td><img src="images/1.jpg" alt="Degjuese" width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/1.jpg" alt="Degjuese" width="50" height="50"></td>
           <td>$5</td>
           <td>Black
             <br>
@@ -454,7 +470,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/2.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/2.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Black
             <br>
@@ -462,7 +478,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/3.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/3.jpg" alt=" " width="50" height="50"></td>
           <td>$96</td>
           <td>Black <br>
               White <br>
@@ -472,12 +488,12 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/4.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/4.jpg" alt=" " width="50" height="50"></td>
           <td>$121</td>
           <td>Black </td>
         </tr>
         <tr>
-          <td><img src="images/5.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/5.jpg" alt=" " width="50" height="50"></td>
           <td>$25</td>
           <td>Black <br>
             White <br>
@@ -488,12 +504,12 @@
         </td>
         </tr>
         <tr>
-          <td><img src="images/6.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/6.jpg" alt=" " width="50" height="50"></td>
           <td>$21</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/7.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/7.jpg" alt=" " width="50" height="50"></td>
           <td>$10</td>
           <td>Black <br>
             White <br>
@@ -504,131 +520,131 @@
         </td>
         </tr>
         <tr>
-          <td><img src="images/8.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/8.jpg" alt=" " width="50" height="50"></td>
           <td>$9</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/9.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/9.jpg" alt=" " width="50" height="50"></td>
           <td>$15</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/10.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/10.jpg" alt=" " width="50" height="50"></td>
           <td>$4</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/11.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/11.jpg" alt=" " width="50" height="50"></td>
           <td>$13</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/12.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/12.jpg" alt=" " width="50" height="50"></td>
           <td>$156</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/13.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/13.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/14.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/14.jpg" alt=" " width="50" height="50"></td>
           <td>$100</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/15.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/15.jpg" alt=" " width="50" height="50"></td>
           <td>$150</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/16.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/16.jpg" alt=" " width="50" height="50"></td>
           <td>$56</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/17.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/17.jpg" alt=" " width="50" height="50"></td>
           <td>$30</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/18.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/18.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/19.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/19.jpg" alt=" " width="50" height="50"></td>
           <td>$250</td>
           <td>Pink</td>
         </tr>
         <tr>
-          <td><img src="images/20.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/20.jpg" alt=" " width="50" height="50"></td>
           <td>$10</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/21.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/21.jpg" alt=" " width="50" height="50"></td>
           <td>$15</td>
           <td> % </td>
         </tr>
         <tr>
-          <td><img src="images/22.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/22.jpg" alt=" " width="50" height="50"></td>
           <td>$89</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/23.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/23.jpg" alt=" " width="50" height="50"></td>
           <td>$45</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/24.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/24.jpg" alt=" " width="50" height="50"></td>
           <td>$70</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/25.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/25.jpg" alt=" " width="50" height="50"></td>
           <td>$40</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/26.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/26.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>%</td>
         </tr>
         <tr>
-          <td><img src="images/27.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/27.jpg" alt=" " width="50" height="50"></td>
           <td>$100</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/28.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/28.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/29.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/29.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Red</td>
         </tr>
         <tr>
-          <td><img src="images/30.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/30.jpg" alt=" " width="50" height="50"></td>
           <td>$86</td>
           <td>%</td>
         </tr>
         <tr>
-          <td><img src="images/31.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/31.jpg" alt=" " width="50" height="50"></td>
           <td>$279</td>
           <td>Black</td>
         </tr>
@@ -636,12 +652,12 @@
       <table style="width:19%">
         <caption><strong>MOTOROLA</strong></caption>
         <tr>
-          <th>Model</th>
-          <th>Price</th>
-          <th>Color</th>
+          <th class="firstTRow">Model</th>
+          <th class="firstTRow">Price</th>
+          <th class="firstTRow">Color</th>
         </tr>
         <tr>
-          <td><img src="images/1.jpg" alt="Degjuese" width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/1.jpg" alt="Degjuese" width="50" height="50"></td>
           <td>$5</td>
           <td>Black
             <br>
@@ -649,7 +665,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/2.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/2.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Black
             <br>
@@ -657,7 +673,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/3.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/3.jpg" alt=" " width="50" height="50"></td>
           <td>$96</td>
           <td>Black <br>
               White <br>
@@ -667,12 +683,12 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/4.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/4.jpg" alt=" " width="50" height="50"></td>
           <td>$121</td>
           <td>Black </td>
         </tr>
         <tr>
-          <td><img src="images/5.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/5.jpg" alt=" " width="50" height="50"></td>
           <td>$25</td>
           <td>Black <br>
             White <br>
@@ -683,12 +699,12 @@
         </td>
         </tr>
         <tr>
-          <td><img src="images/6.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" class="zoom" src="images/6.jpg" alt=" " width="50" height="50"></td>
           <td>$21</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/7.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/7.jpg" alt=" " width="50" height="50"></td>
           <td>$10</td>
           <td>Black <br>
             White <br>
@@ -699,131 +715,131 @@
         </td>
         </tr>
         <tr>
-          <td><img src="images/8.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/8.jpg" alt=" " width="50" height="50"></td>
           <td>$9</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/9.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/9.jpg" alt=" " width="50" height="50"></td>
           <td>$15</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/10.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/10.jpg" alt=" " width="50" height="50"></td>
           <td>$4</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/11.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/11.jpg" alt=" " width="50" height="50"></td>
           <td>$13</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/12.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/12.jpg" alt=" " width="50" height="50"></td>
           <td>$156</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/13.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/13.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/14.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/14.jpg" alt=" " width="50" height="50"></td>
           <td>$100</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/15.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/15.jpg" alt=" " width="50" height="50"></td>
           <td>$150</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/16.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/16.jpg" alt=" " width="50" height="50"></td>
           <td>$56</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/17.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/17.jpg" alt=" " width="50" height="50"></td>
           <td>$30</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/18.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/18.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/19.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/19.jpg" alt=" " width="50" height="50"></td>
           <td>$250</td>
           <td>Pink</td>
         </tr>
         <tr>
-          <td><img src="images/20.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/20.jpg" alt=" " width="50" height="50"></td>
           <td>$10</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/21.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/21.jpg" alt=" " width="50" height="50"></td>
           <td>$15</td>
           <td> % </td>
         </tr>
         <tr>
-          <td><img src="images/22.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/22.jpg" alt=" " width="50" height="50"></td>
           <td>$89</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/23.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/23.jpg" alt=" " width="50" height="50"></td>
           <td>$45</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/24.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/24.jpg" alt=" " width="50" height="50"></td>
           <td>$70</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/25.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/25.jpg" alt=" " width="50" height="50"></td>
           <td>$40</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/26.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/26.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>%</td>
         </tr>
         <tr>
-          <td><img src="images/27.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/27.jpg" alt=" " width="50" height="50"></td>
           <td>$100</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/28.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/28.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/29.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/29.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Red</td>
         </tr>
         <tr>
-          <td><img src="images/30.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/30.jpg" alt=" " width="50" height="50"></td>
           <td>$86</td>
           <td>%</td>
         </tr>
         <tr>
-          <td><img src="images/31.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/31.jpg" alt=" " width="50" height="50"></td>
           <td>$279</td>
           <td>Black</td>
         </tr>
@@ -832,12 +848,12 @@
       <table style="width:19%">
         <caption><strong>SAMSUNG</strong></caption>
         <tr>
-          <th>Model</th>
-          <th>Price</th>
-          <th>Color</th>
+          <th class="firstTRow">Model</th>
+          <th class="firstTRow">Price</th>
+          <th class="firstTRow">Color</th>
         </tr>
         <tr>
-          <td><img src="images/1.jpg" alt="Degjuese" width="50" height="50"></td>
+          <td><img class="zoom" src="images/1.jpg" alt="Degjuese" width="50" height="50"></td>
           <td>$5</td>
           <td>Black
             <br>
@@ -845,7 +861,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/2.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/2.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Black
             <br>
@@ -853,7 +869,7 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/3.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/3.jpg" alt=" " width="50" height="50"></td>
           <td>$96</td>
           <td>Black <br>
               White <br>
@@ -863,12 +879,12 @@
           </td>
         </tr>
         <tr>
-          <td><img src="images/4.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/4.jpg" alt=" " width="50" height="50"></td>
           <td>$121</td>
           <td>Black </td>
         </tr>
         <tr>
-          <td><img src="images/5.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/5.jpg" alt=" " width="50" height="50"></td>
           <td>$25</td>
           <td>Black <br>
             White <br>
@@ -879,12 +895,12 @@
         </td>
         </tr>
         <tr>
-          <td><img src="images/6.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/6.jpg" alt=" " width="50" height="50"></td>
           <td>$21</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/7.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/7.jpg" alt=" " width="50" height="50"></td>
           <td>$10</td>
           <td>Black <br>
             White <br>
@@ -895,177 +911,199 @@
         </td>
         </tr>
         <tr>
-          <td><img src="images/8.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/8.jpg" alt=" " width="50" height="50"></td>
           <td>$9</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/9.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/9.jpg" alt=" " width="50" height="50"></td>
           <td>$15</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/10.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/10.jpg" alt=" " width="50" height="50"></td>
           <td>$4</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/11.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/11.jpg" alt=" " width="50" height="50"></td>
           <td>$13</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/12.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/12.jpg" alt=" " width="50" height="50"></td>
           <td>$156</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/13.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/13.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/14.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/14.jpg" alt=" " width="50" height="50"></td>
           <td>$100</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/15.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/15.jpg" alt=" " width="50" height="50"></td>
           <td>$150</td>
           <td>White <br>
               Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/16.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/16.jpg" alt=" " width="50" height="50"></td>
           <td>$56</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/17.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/17.jpg" alt=" " width="50" height="50"></td>
           <td>$30</td>
           <td>Black
           </td>
         </tr>
         <tr>
-          <td><img src="images/18.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/18.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/19.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/19.jpg" alt=" " width="50" height="50"></td>
           <td>$250</td>
           <td>Pink</td>
         </tr>
         <tr>
-          <td><img src="images/20.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/20.jpg" alt=" " width="50" height="50"></td>
           <td>$10</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/21.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/21.jpg" alt=" " width="50" height="50"></td>
           <td>$15</td>
           <td> % </td>
         </tr>
         <tr>
-          <td><img src="images/22.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/22.jpg" alt=" " width="50" height="50"></td>
           <td>$89</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/23.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/23.jpg" alt=" " width="50" height="50"></td>
           <td>$45</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/24.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/24.jpg" alt=" " width="50" height="50"></td>
           <td>$70</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/25.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/25.jpg" alt=" " width="50" height="50"></td>
           <td>$40</td>
           <td>All color</td>
         </tr>
         <tr>
-          <td><img src="images/26.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/26.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>%</td>
         </tr>
         <tr>
-          <td><img src="images/27.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/27.jpg" alt=" " width="50" height="50"></td>
           <td>$100</td>
           <td>White</td>
         </tr>
         <tr>
-          <td><img src="images/28.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/28.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Black</td>
         </tr>
         <tr>
-          <td><img src="images/29.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/29.jpg" alt=" " width="50" height="50"></td>
           <td>$50</td>
           <td>Red</td>
         </tr>
         <tr>
-          <td><img src="images/30.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/30.jpg" alt=" " width="50" height="50"></td>
           <td>$86</td>
           <td>%</td>
         </tr>
         <tr>
-          <td><img src="images/31.jpg" alt=" " width="50" height="50"></td>
+          <td><img class="zoom" src="images/31.jpg" alt=" " width="50" height="50"></td>
           <td>$279</td>
           <td>Black</td>
         </tr>
       </table>           
       <br style="clear: left;">
+
+      <p class="onl">
+        <b>How can I look at accessories or buy them?</b><br>
+       As a start on our web site you can not buy accessories online or order accessories.
+        If you want to buy an accessory you have to come to our store which is located in "US Office: 651 N Broad St.Middletown, Delaware, 1970, 
+        United State", and buy an accessory.
+         On our site you have all the information about the accessory.
+          You can only view the accessories on our site.
+      </p> 
+ 
     </div>
     
     <div id="Laptop" class="tabcontent">
        <table style="width:32%">
         <caption><strong>DELL</strong></caption>
         <tr>
-            <th>Model</th>
-            <th>Price</th>
-            <th>Name</th>
-            <th>Made In</th>
-            <th>Find In</th>
-            <th>Amount of</th>
-            <th>Sold</th>
-            <th>Color</th>
+            <th class="firstTRow">Model</th>
+            <th class="firstTRow">Price</th>
+            <th class="firstTRow">Made In</th>
+            <th class="firstTRow">Find In</th>
+            <th class="firstTRow">Amount of</th>
+            <th class="firstTRow">Sold</th>
+            <th class="firstTRow">Color</th>
           </tr>
         <tr>
-          <td><img src="images/0accessory.jpg" alt="Degjuese" width="50" height="50"></td>
+          <td><img class="zoom" src="images/0accessory.jpg" alt="Degjuese" width="50" height="50"></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>14</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White <br>
+            Red <br>
+            Blue <br>
+            Green <br>
+            Pink
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>3</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White <br>
+            Red <br>
+            Blue
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>0</td>
           <td>Sold</td>
           <td>None</td>
@@ -1073,29 +1111,39 @@
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>95</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White <br>
+            Red <br>
+            Blue <br>
+            Green 
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>150</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White 
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>0</td>
           <td>Sold</td>
           <td>None</td>
@@ -1103,19 +1151,24 @@
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>587</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White <br>
+            Red 
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>0</td>
           <td>Sold</td>
           <td>None</td>
@@ -1123,9 +1176,10 @@
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>0</td>
           <td>Sold</td>
           <td>None</td>
@@ -1133,9 +1187,10 @@
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>0</td>
           <td>Sold</td>
           <td>None</td>
@@ -1145,205 +1200,248 @@
       <table style="width:32%">
         <caption><strong>HP</strong></caption>
         <tr>
-          <th>Model</th>
-          <th>Price</th>
-          <th>Name</th>
-          <th>Made In</th>
-          <th>Find In</th>
-          <th>Amount of</th>
-          <th>Sold</th>
-          <th>Color</th>
+            <th class="firstTRow">Model</th>
+            <th class="firstTRow">Price</th>
+            <th class="firstTRow">Made In</th>
+            <th class="firstTRow">Find In</th>
+            <th class="firstTRow">Amount of</th>
+            <th class="firstTRow">Sold</th>
+            <th class="firstTRow">Color</th>
+          </tr>
+        <tr>
+          <td><img class="zoom" src="images/0accessory.jpg" alt="Degjuese" width="50" height="50"></td>
+          <td></td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
+          <td>0</td>
+          <td>Sold</td>
+          <td>None</td>
         </tr>
         <tr>
-          <td><img src="images/0accessory.jpg" alt="Degjuese" width="50" height="50"></td>
           <td></td>
           <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
-          <td>147</td>
-          <td>No</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>5</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White 
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>111</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White <br>
+            Red <br>
+            Blue <br>
+            Green <br>
+            Pink
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
-          <td>80</td>
-          <td>No</td>
-          <td></td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
+          <td>0</td>
+          <td>Sold</td>
+          <td>None</td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>46</td>
           <td>No</td>
-          <td></td>
+          <td>All color</td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>569</td>
           <td>No</td>
-          <td></td>
+          <td>All color</td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>96</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White <br>
+            Red <br>
+            Blue
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>1</td>
           <td>No</td>
-          <td></td>
+          <td>Black</td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
-          <td>2</td>
-          <td>No</td>
-          <td></td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
+          <td>0</td>
+          <td>sold</td>
+          <td>None</td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>50</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White <br>
+            Red 
+        </td>
         </tr>
       </table>
 
       <table style="width:32%">
         <caption><strong>APPLE</strong></caption>
         <tr>
-          <th>Model</th>
-          <th>Price</th>
-          <th>Name</th>
-          <th>Made In</th>
-          <th>Find In</th>
-          <th>Amount of</th>
-          <th>Sold</th>
-          <th>Color</th>
-        </tr>
+            <th class="firstTRow">Model</th>
+            <th class="firstTRow">Price</th>
+            <th class="firstTRow">Made In</th>
+            <th class="firstTRow">Find In</th>
+            <th class="firstTRow">Amount of</th>
+            <th class="firstTRow">Sold</th>
+            <th class="firstTRow">Color</th>
+          </tr>
         <tr>
-          <td><img src="images/0accessory.jpg" alt="Degjuese" width="50" height="50"></td>
+          <td><img class="zoom" src="images/0accessory.jpg" alt="Degjuese" width="50" height="50"></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>10</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>100</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White <br>
+            Red
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>17</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
-          <td>41</td>
-          <td>No</td>
-          <td></td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
+          <td>0</td>
+          <td>Sold</td>
+          <td>None </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>50</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>156</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White <br>
+            Red <br>
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>1</td>
           <td>No</td>
-          <td></td>
+          <td>Black</td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>0</td>
           <td>Sold</td>
           <td>None</td>
@@ -1351,27 +1449,43 @@
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>910</td>
           <td>No</td>
-          <td></td>
+          <td>Black <br>
+            White <br>
+            Red <br>
+            Blue <br>
+            Green <br>
+            Pink
+        </td>
         </tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td>
-          <td>Kosov</td>
-          <td>Prishtinë</td>
+          <td>United State</td>
+          <td>US Office: 651 N Broad St.
+    Middletown, Delaware, 1970
+     United State</td>
           <td>0</td>
           <td>Sold</td>
           <td>None</td>
         </tr>
       </table>
       <br style="clear: left;">
-    </div>
-   
+     
+      <p class="onl">
+        <b>How can I look at accessories or buy them?</b><br>
+       As a start on our web site you can not buy accessories online or order accessories.
+        If you want to buy an accessory you have to come to our store which is located in "US Office: 651 N Broad St.Middletown, Delaware, 1970, 
+        United State", and buy an accessory.
+         On our site you have all the information about the accessory.
+          You can only view the accessories on our site.
+      </p> 
+  </div>
 
 <footer id="footer">
 <div>
@@ -1395,9 +1509,8 @@
     Middletown, Delaware, 1970
      United State
     </pre>
-</div>  
-
-</div>  
+</div> 
+</div> 
 </div>
 
 <hr style="clear: left;">
