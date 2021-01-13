@@ -1,0 +1,8 @@
+html,body,header,footer,div,article,section,p,h1,h3,ul,ol,nav,figure,figcaption,img,hr{
+margin: 0;
+padding:0;
+border:0;
+vertical-align:baseline;
+font-size:100;
+
+}
