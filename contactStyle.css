@@ -258,7 +258,7 @@ screen-header {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   margin-left: 2rem;
-  margin-top: 0.7rem;
+  margin-top: 0.3rem;
   display: block;
   transition: all 0.3s;
   transform: translateY(0rem);
@@ -268,7 +268,7 @@ screen-header {
   color: #333;
   font-size: 1.2rem;
   margin: 0 auto;
-  padding: 1.5rem 2rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 0.2rem;
   background-color: rgb(255, 255, 255);
   border: none;
@@ -285,4 +285,102 @@ screen-header {
 }
 
 
+div.butonat
+    {
+      height: 180px;
+      width: 500px;
+      border-radius: 90px;
+      background-color: grey;
+      color: black;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 150px;
+      align-content: center;
+       display: flex;
+ flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 3rem;
 
+    }
+
+    div.rating
+    {
+      width: 400px;
+      padding-top: 40px;
+      padding-left: 105px;
+    }
+    div.rating1
+    {
+      position:relative;
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 10px;
+      border:1px solid #000;
+      box-sizing: border-box;
+      background: linear-gradient(to right,#f00,#ff0,#0f0);
+    }
+    div.rating1 input
+    {
+      display: none;
+    }
+    div.rating1 label
+    {
+      display: block;
+      cursor: pointer;
+      width: 50px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: .5s;
+      background: #fff;
+      color: #000;
+      font-size: 20px;
+      border-right: 1px solid #000;
+      border-radius: 10px;
+    }
+    .rating1 input[type="radio"]:hover ~ label,
+    .rating1 input[type="radio"]:checked ~ label
+
+    {
+      background: transparent;
+
+    }
+
+#butoniNr {
+  margin-left: 2rem;
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color:#7892c2;
+  border-radius:10px;
+  border:1px solid #4e6096;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:19px;
+  padding:12px 37px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #283966;
+}
+#butoniNr:hover {
+  background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color:#476e9e;
+}
+#butoniNr:active {
+  position:relative;
+  top:1px;
+}
+#ndrrimi{
+      align-content: center;
+       display: flex;
+ flex: 0 1 400px;
+  margin-bottom: 2rem;
+  margin-left: 32rem;
+  margin-top: -14rem;
+  margin-right: auto;
+  m
+  padding: 10px;
+}

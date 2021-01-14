@@ -12,7 +12,7 @@
 <body>
 
     <div class="navbaritem"></div>
-    <div class="navbar" id="navbar">
+  	<div class="navbar" id="navbar">
         <div class="navbarname">
             <h2><span>O</span>nline<span> Store</span></h2>
         </div>
@@ -70,34 +70,48 @@
             </form>
           </div>
         </div>
+        <br/>
       </div>
     </div>
 </div>
-<div>
+</div>
+<div id="ndrrimi">
 <div class="form__group">
   <input type="text" class="form__input" id="nrRi" placeholder="Numri i Ri"  />
   <label for="name" class="form__label">Numri i Ri</label>
 </div>
 	<br/>
-<<<<<<< Updated upstream
-	<button onclick="myFunction()">Ndrro Numrin</button>
-=======
 	<button id="butoniNr" onclick="myFunction()">Nderro Numrin</button>
->>>>>>> Stashed changes
 </div>
-<form class="format" action="" method="get" >
-<div class="vlerso">
-  <input type="radio" name="vlersimi" value="1" onclick="alert('Faleminderit per vlersimin')"> <big>1 Yll(I vetem)</big> </value><br>
-  </div>
-  <div class="vlerso">
-  <input type="radio" name="vlersimi" value="2"  onclick="alert('Faleminderit per vlersimin')"> <big>2 Yje(Dobet)</big></value><br> </div>
-  <div class="vlerso">
-  <input type="radio" name="vlersimi" value="3"  onclick="alert('Faleminderit per vlersimin')"> <big>3 Yje(Mire)</big></value><br></div>
-  <div class="vlerso">
-  <input type="radio" name="vlersimi" value="4"  onclick="alert('Faleminderit per vlersimin')"> <big>4 Yje(Shume mire)</big></value><br></div>
-  <div class="vlerso">
-  <input type="radio" name="vlersimi" value="5"  onclick="alert('Faleminderit per vlersimin')"> <big>5 Yje(Shkelqyeshem)</big></value><br><div>
-</form>
+	<div class="butonat">
+				<div class="rating">
+					<h3 class="ratingid" align="center">
+						Rate our Gallery
+					</h3>
+				<div class="rating1">
+					<input type="radio" name="rating" id="rate10" onclick="alert('Thank you')">
+					<label for="rate10">10</label>
+					<input type="radio" name="rating" id="rate9" onclick="alert('Thank you')">
+					<label for="rate9">9</label>
+					<input type="radio" name="rating" id="rate8" onclick="alert('Thank you')">
+					<label for="rate8">8</label>
+					<input type="radio" name="rating" id="rate7" onclick="alert('Thank you')">
+					<label for="rate7">7</label>
+					<input type="radio" name="rating" id="rate6" onclick="alert('Thank you , we will try better next time .')">
+					<label for="rate6">6</label>
+					<input type="radio" name="rating" id="rate5" onclick="alert('Thank you .')">
+					<label for="rate5">5</label>
+					<input type="radio" name="rating" id="rate4" onclick="alert('Thank you , we will try better next time .')">
+					<label for="rate4">4</label>
+					<input type="radio" name="rating" id="rate3" onclick="alert('Thank you , we will try better next time .')">
+					<label for="rate3">3</label>
+					<input type="radio" name="rating" id="rate2" onclick="alert('Thank you , we will try better next time .')">
+					<label for="rate2">2</label>
+					<input type="radio" name="rating" id="rate1" onclick="alert('Thank you , we will try better next time .')">
+					<label for="rate1">1</label>
+				</div>
+			</div>
+			</div>
 <script type="text/javascript">
 	function myFunction(){
 		var numri = document.getElementById("ContactNr").innerHTML;
@@ -130,9 +144,15 @@
   }
 
 }
-	
-</script>
+	var date = new Date();
+	var hour = date.getHours();
 
+	if(hour >=8 && hour <=18){
+		document.body.style.background = '#A3A2A0';
+	}
+</script>
+<script src="Location.js"></script>
+<script src="slider.js"></script>
     </body>
 
 </html>
