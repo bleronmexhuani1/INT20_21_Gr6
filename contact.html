@@ -47,24 +47,27 @@
           </div>
           <div class="app-contact" id="numritel">CONTACT INFO :<span id="ContactNr"> 044 </span></div>
         </div>
+
         <div class="screen-body-item">
           <div class="app-form">
+          	<form name="form1" action="#">
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="NAME" >
+              <input class="app-form-control" required="true"  placeholder="NAME" >
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="EMAIL">
+              <input class="app-form-control" required="true"  placeholder="EMAIL" name="emaili">
             </div>
             <div class="app-form-group">
-              <input class="app-form-control"  placeholder="CONTACT NO">
+              <input class="app-form-control" required="true"  placeholder="CONTACT NO">
             </div>
             <div class="app-form-group message">
-              <input class="app-form-control" placeholder="MESSAGE">
+              <input class="app-form-control" required="true"  placeholder="MESSAGE">
             </div>
             <div class="app-form-group buttons">
               <button class="app-form-button">CANCEL</button>
-              <button class="app-form-button">SEND</button>
+              <button class="app-form-button" onclick="ValidateEmail(document.form1.emaili)">SEND</button>
             </div>
+            </form>
           </div>
         </div>
       </div>
@@ -76,7 +79,11 @@
   <label for="name" class="form__label">Numri i Ri</label>
 </div>
 	<br/>
+<<<<<<< Updated upstream
 	<button onclick="myFunction()">Ndrro Numrin</button>
+=======
+	<button id="butoniNr" onclick="myFunction()">Nderro Numrin</button>
+>>>>>>> Stashed changes
 </div>
 <form class="format" action="" method="get" >
 <div class="vlerso">
@@ -99,6 +106,30 @@
 		var txt = numri.replace(numri,numriRi);
 		document.getElementById("ContactNr").innerHTML = txt;
 	}
+
+	function ValidateEmail(input) {
+
+  var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+  if (input.value.match(validRegex)) {
+
+    alert("Valid email address!");
+
+    document.form1.text1.focus();
+
+    return true;
+
+  } else {
+
+    alert("Invalid email address!");
+
+    document.form1.text1.focus();
+
+    return false;
+
+  }
+
+}
 	
 </script>
 
