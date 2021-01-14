@@ -49,6 +49,7 @@ body, button, input {
   margin-top: 10em;
   padding: 10px;
 }
+
 .screen {
   position: relative;
   background: #3e3e3e;
@@ -379,8 +380,7 @@ div.butonat
  flex: 0 1 400px;
   margin-bottom: 2rem;
   margin-left: 32rem;
-  margin-top: -14rem;
+  margin-top: -10rem;
   margin-right: auto;
-  m
   padding: 10px;
 }
