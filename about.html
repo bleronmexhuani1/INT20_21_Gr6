@@ -5,6 +5,33 @@
 <link rel="icon" href="images/icon.png" type="images/icon">
 <title>Online Store</title>
 
+<style>
+#icon1, #icon2 {
+  float: left;
+  width: 500px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+</head>
 
 <body>
 
@@ -91,18 +118,20 @@
       </pre>
   </div>  
  
-<p>Click the button to get your coordinates.</p>
 
-<button onclick="getLocation()">Try It</button>
-
-<p id="demo"></p>
+  <h3>Drag and Drop the Online Store image.</h3>
+  <div style="margin-left: 15%;">
+  <div id="icon1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="images/icon2.png" draggable="true" ondragstart="drag(event)" id="drag1" width="400" height="80">
+  </div>
+  
+  <div id="icon2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
 </div>
 
 <hr style="clear: left;">
 &copy;INT20_21_Gr6 2020
 </footer>
-
-<script src="Location.js"></script>
   
 
  </body>
