@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="rps.css">
     <link rel="icon" href="images/icon.png" type="images/icon">
     <title>Online Store</title>
 </head>
@@ -25,7 +26,36 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
-  
+
+    <div class="score-board">
+        <div id="user-label" class="badge">User</div>
+        <div class="badge" id="comp-label">Comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div id="images" class="images">
+        <div class="rock">
+            <img src="images/rock.png" id="rock" onclick="rps(this)" height="200" width="200">
+        </div>
+        <div class="scissors">
+            <img src="images/scissors.png" id="scissors" onclick="rps(this)" height="200" width="200">
+        </div>
+        <div class="paper">
+            <img src="images/paper.png" id="paper" onclick="rps(this)" height="200" width="200">
+        </div>
+    </div>
+
+    <div id="images1" class="images1"></div>
+
+    <div class="button">
+        <button onclick="playAgain()">Play Again</button>
+    </div>
+    
+    <div class="reset">
+        <button onclick="resetscore()">Reset Score</button>
+    </div>
+
+    <script src="rpsgame.js"></script>
 
 <footer id="footer">
 <div>
