@@ -1,0 +1,24 @@
+CACHE MANIFEST
+
+
+CACHE:
+service.html
+
+# styles & scripts
+service.css
+backgroundchange.js
+geolocation.js
+
+# images
+images/icon1.jpg
+images/mobileservice.jpg
+
+
+#audiot
+audiot/audio1.mp3
+audiot/audio2.mp3
+
+
+#video
+video/video1.mp4
+video/video2.mp4

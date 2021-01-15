@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="form.css">
     <script src="form.js"></script>
-
+    <script  src=sesionet.js></script>
     
 </head>
 
@@ -114,6 +114,18 @@
            United State
           </pre>
       </div>  
+      <br>
+      <div>
+                <form name="myForm" method="get" action="http://www.randyconnolly.com/tests/process.php" onsubmit="return validateForm()" >
+                    <input name="ffname" type="text" placeholder="Name" id="name" style="background-color:lightgrey; border-radius:3;width:230px; height:20px;"><br><br>
+                    <input name="email" type="email" placeholder="Email" id="email"  autocomplete="off"  style="background-color:lightgrey; border-color:dimgrey; border-radius:3px;width:230px;height:20px;" ><br><br>
+                <input name="pass" type="password" placeholder="Password" id="pass" style="background-color:lightgrey; border-color:dimgrey; border-radius:3px;width:230px;height:20px;" ><br><br>
+                <button type="submit"onclick="clickCounter1()" class="button" style="color:black;">Submit</button>
+                <p id="result" style="color:white;float:right;"></p>
+                <br>
+                </form>
+                <script src=validForm.js></script>
+      </div>
       
     
 </div>
