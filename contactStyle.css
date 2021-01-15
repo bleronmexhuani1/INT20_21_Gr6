@@ -20,6 +20,16 @@ body {
             left:0;     
 }
 
+ul{   
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 3px;
+    margin-right: 2%;
+    
+} 
+
 .vlerso{
   padding-left: 2em;
   padding-right: 2em;
@@ -34,7 +44,6 @@ border-radius: 10px;
 
 body, button, input {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
   letter-spacing: 1.4px;
 }
 
