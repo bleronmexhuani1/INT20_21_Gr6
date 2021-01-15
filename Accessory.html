@@ -41,6 +41,18 @@
         border: 3px outset rgb(146, 142, 142);
       }
       </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".onl").mouseenter(function(){
+    $(".onl").css("background-color", " rgb(245, 201, 201)");
+  });
+  $(".onl").mouseleave(function(){
+    $(".onl").css("background-color", " rgb(178, 173, 240)");
+  });
+});
+</script>
 </head>
 
 <body>
@@ -62,6 +74,7 @@
     <button class="tablink" onclick="openPage('Phone', this, 'rgb(255, 234, 234)')" id="defaultOpen">Phone</button>
     <button class="tablink" onclick="openPage('Laptop', this, 'rgb(231, 232, 255)')">Laptop</button>
     
+
     <div id="Phone" class="tabcontent">
       <table style="width:19%">
         <caption><strong>HUAWEI</strong></caption>
@@ -1050,6 +1063,12 @@
         United State", and buy an accessory.
          On our site you have all the information about the accessory.
           You can only view the accessories on our site.
+          <button class="button1" onclick="myFunction()">Click</button>    
+        <script>
+        function myFunction() {
+          alert("Visit us in our Store!");
+        }
+        </script> 
       </p> 
  
     </div>
@@ -1480,12 +1499,19 @@
      
       <p class="onl">
         <b>How can I look at accessories or buy them?</b><br>
-       As a start on our web site you can not buy accessories online or order accessories.
+        As a start on our web site you can not buy accessories online or order accessories.
         If you want to buy an accessory you have to come to our store which is located in "US Office: 651 N Broad St.Middletown, Delaware, 1970, 
         United State", and buy an accessory.
-         On our site you have all the information about the accessory.
-          You can only view the accessories on our site.
+        On our site you have all the information about the accessory.
+        You can only view the accessories on our site.
+        <button class="button1" onclick="myFunction()">Click</button>    
+        <script>
+        function myFunction() {
+          alert("Visit us in our Store!");
+        }
+        </script> 
       </p> 
+        
   </div>
 
 <footer id="footer">
